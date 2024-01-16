@@ -12,7 +12,7 @@ function Home() {
                     <div className="carousel-item active position-relative">
                         <div className='carosal-content position-absolute top-0 w-100 mt-3'  >
                             <div className='container'>
-                                <div className="d-lg-block d-none" data-aos="fade-right" >
+                                <div className="" data-aos="fade-right" >
                             
                                 <h5 className='text-uppercase text-black'><span className='fw-normal'>Our</span><br /><b>Latest</b><br /><span style={{ color: '#ffc221' }}>Product</span></h5>
                                 <p className='fw-bold mb-0 d-lg-block d-none'>It is a long established fact that a r<br />
@@ -28,7 +28,7 @@ function Home() {
                     <div className="carousel-item">
                     <div className='carosal-content position-absolute top-0 w-100 mt-3'>
                             <div className='container'>
-                            <div className="d-lg-block d-none" data-aos="fade-right" >
+                            <div className="" data-aos="fade-right" >
                                 <h5 className='text-uppercase text-black'><span className='fw-normal'>Our</span><br /><b>Latest</b><br /><span style={{ color: '#ffc221' }}>Product</span></h5>
                                 <p className='fw-bold mb-0 d-lg-block d-none'>It is a long established fact that a r<br />
                                     eader will be distracted by the readable content of a page</p><br/>
@@ -41,7 +41,7 @@ function Home() {
                     <div className="carousel-item">
                     <div className='carosal-content position-absolute top-0 w-100 mt-3'>
                             <div className='container'>
-                            <div className="d-lg-block d-none" data-aos="fade-right" >
+                            <div className="" data-aos="fade-right" >
                                 <h5 className='text-uppercase text-black'><span className='fw-normal'>Our</span><br /><b>Latest</b><br /><span style={{ color: '#ffc221' }}>Product</span></h5>
                                 <p className='fw-bold mb-0 d-lg-block d-none'>It is a long established fact that a r<br />
                                     eader will be distracted by the readable content of a page</p><br/>
