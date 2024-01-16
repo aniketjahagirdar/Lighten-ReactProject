@@ -52,7 +52,7 @@ function Home() {
                         <img src="images/banner2.jpg" className="d-block w-100" alt="images/banner2.jpg" />
                     </div>
                 </div>
-                <div className='d-lg-flex d-none gap-4 ms-2 w-0 bg-white w-25' style={{marginTop:'-70px'}}>
+                <div className=' gap-4 ms-2 w-0 bg-white w-25' style={{marginTop:'-70px'}}>
                 <button className=" btn carousel-control-prev fade p-0 w-0 bg-white h-0 position-static"  style={{color:"red !important",opacity:'1.5 !important'}}  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <i class="bi bi-chevron-left text-black fs-1"></i>
                     <span className="visually-hidden">Previous</span>
