@@ -51,7 +51,10 @@ body{
 }
  
 
-@media(max-width:375px) { 
+@media(max-width:425px) { 
+  #carouselExampleControls .carousel-control-prev, #carouselExampleControls  .carousel-control-next{
+    width: 100%;
+  }
   #carouselExampleControls .carousel-inner,#carouselExampleControls  img{
     height: 50vh;
   }
