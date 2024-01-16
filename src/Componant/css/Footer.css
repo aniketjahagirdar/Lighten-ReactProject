@@ -1,0 +1,16 @@
+#footer .Icons ul i {
+    border:1px solid #ffc221;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+
+    
+}
+#footer .Icons ul i:hover{
+    background-color:#ffc221 ;
+    color: black;
+}
+#footer ul li a:hover{
+    color:#ffc221 !important;
+}

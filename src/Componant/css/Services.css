@@ -1,0 +1,16 @@
+#Servies .Headline hr,#Service-Process .Headline hr{
+    opacity: 1.25 !important;
+}
+#Servies .servies-content{
+    background-color: #ffc221;
+}
+#Servies .servies-btn{
+    border:1px solid #ffc221;
+}
+#Servies .servies-btn:hover{
+    background-color: #ffc221;
+}
+#Service-Process img{
+    height: 12vh;
+}
+

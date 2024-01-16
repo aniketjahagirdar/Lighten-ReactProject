@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;padding: 0%;
+}
+body{
+  /* background-color: red; */
+  font-family: 'poppins', sans-serif !important;
+}
+#Header .Header-first{
+  background-color: #ffc221;
+}
+#Header .btn-outline:hover{
+  color: white !important;
+  background-color: black !important;
+}
+#Header .collapse li a:hover{
+  color: #ffc221 !important;
+}
+#Header .collapse a.active{
+  color: #ffc221 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* carouselExampleControls */
+#carouselExampleControls .carosal-content h5{
+  font-size: 13vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#carouselExampleControls .carosal-content{
+  margin-left: 7%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#carouselExampleControls .carosal-content .btn-content{
+  background-color: #ffc221;
   color: white;
+  border-radius: 30px 1px 30px 30px;
 }
-
-.App-link {
-  color: #61dafb;
+#carouselExampleControls .carosal-content .btn-content:hover{
+  background-color: black;
 }
+#main_slider .bi-chevron-left{
+  color: #ffc221 !important;
+}
+ .carousel-control-next:hover,.carousel-control-prev:hover{
+  background-color: #ffc221 !important;
+ }
+ .carousel-control-next, .carousel-control-prev{
+  opacity: 1.5 !important;
+ }
+ #services{
+  background-color: red !important;
+ }
+ #Product .Headline hr{
+  opacity: 1.25 !important;
+}
+ 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:320px) { 
+  #carouselExampleControls .carousel-inner,#carouselExampleControls  img{
+    height: 40vh;
   }
-  to {
-    transform: rotate(360deg);
+  #carouselExampleControls .carosal-content h5{
+    font-size: 6vh;
   }
+
+  
 }

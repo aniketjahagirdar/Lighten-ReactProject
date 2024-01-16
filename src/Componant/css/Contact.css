@@ -1,0 +1,14 @@
+
+#form input:focus, textarea:focus{
+    outline: none;
+    border: 2px solid black;
+}
+#form input,textarea{
+    border: 2px solid #ffc221;
+    margin-bottom: 20px;
+} 
+#form .btn-outline:hover{
+    background-color: #ffc221 !important;
+
+}
+
