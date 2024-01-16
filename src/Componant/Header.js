@@ -47,7 +47,7 @@ function Header() {
                   <li className='list-unstyled text-center '><NavLink to='/About' className='fs-5 text-decoration-none text-black w-100 text-center'>About</NavLink></li>
                   <li className='list-unstyled text-center '><NavLink to='/Product' className='fs-5 text-decoration-none text-black w-100 text-center'>Product</NavLink></li>
                   <li className='list-unstyled text-center '><NavLink to='/Blog' className='fs-5 text-decoration-none text-black w-100 text-center'>Blog</NavLink></li>
-                  {/* <li className='list-unstyled text-center '><NavLink to='/Contact' className='fs-5 text-decoration-none text-black w-100 text-center'>Contact</NavLink></li> */}
+                  <li className='list-unstyled text-center '><NavLink to='/Contact' className='fs-5 text-decoration-none text-black w-100 text-center'>Contact</NavLink></li>
                 </ul>
                 <div className='navbar-buttton d-none d-lg-block'>
                   <button type='button' className='btn btn-outline ps-5 pe-5' style={{ backgroundColor: "#ffc221" }}>Login</button>
