@@ -14,6 +14,7 @@ import {BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './Componant/About';
 import Blog from './Componant/Blog';
 import Contact from './Componant/Contact';
+import ScrollToTop from './Componant/ScrollToTop';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <BrowserRouter>
     
       <Header />  
+      <ScrollToTop/>
     <Routes>
       
       <Route path='/' element={<Home/>}/>
