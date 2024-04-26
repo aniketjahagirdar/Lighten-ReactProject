@@ -14,15 +14,20 @@ import {BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './Componant/About';
 import Blog from './Componant/Blog';
 import Contact from './Componant/Contact';
-import ScrollToTop from './Componant/ScrollToTop';
+// import ScrollToTop from './Componant/ScrollToTop';
+
 
 function App() {
+  useEffect(() => {
+    // Scroll to the top on initial render (refresh or page load)
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
     <BrowserRouter>
     
       <Header />  
-      <ScrollToTop/>
+      {/* <ScrollToTop/> */}
     <Routes>
       
       <Route path='/' element={<Home/>}/>
